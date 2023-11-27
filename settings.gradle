@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        maven { url "https://jcenter.bintray.com" }
+//        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        maven { url "https://jcenter.bintray.com" }
+//        mavenCentral()
+    }
+}
+rootProject.name = "PDF Reader"
+include ':app'
